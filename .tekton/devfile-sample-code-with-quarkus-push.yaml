@@ -35,6 +35,11 @@ spec:
       - name: kind
         value: pipeline
     resolver: bundles
+  taskRunTemplate:
+    podTemplate:
+      env:
+        - name: DEBUG
+          value: '1'
   workspaces:
     - name: workspace
       volumeClaimTemplate:
