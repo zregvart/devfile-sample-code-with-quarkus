@@ -29,7 +29,7 @@ spec:
   pipelineRef:
     params:
       - name: bundle
-        value: quay.io/redhat-appstudio-tekton-catalog/pipeline-java-builder@sha256:8e5ecf085379de854b6f5c88d14f6b3769c3a7353b8bb3f429295210bca07014
+        value: quay.io/zregvart_redhat/pipeline-java-builder:2024-03-07-105843
       - name: name
         value: java-builder
       - name: kind
