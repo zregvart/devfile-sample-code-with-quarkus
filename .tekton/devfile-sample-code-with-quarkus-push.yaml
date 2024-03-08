@@ -19,7 +19,7 @@ spec:
     - name: dockerfile
       value: src/main/docker/Dockerfile.jvm.staged
     - name: git-url
-      value: '{{source_url}}'
+      value: https://github.com/zregvart/devfile-sample-code-with-quarkus.git
     - name: output-image
       value: quay.io/redhat-user-workloads-stage/zregvart-tenant/devfile-sample-code-with-quarkus/devfile-sample-code-with-quarkus:{{revision}}
     - name: path-context
